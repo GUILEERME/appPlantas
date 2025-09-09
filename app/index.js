@@ -5,7 +5,7 @@ export default function Index() {
   return (
     <View style={styles.container}>
       <ImageBackground
-        source={require('../assets/images/index/cuphead-flower.gif')}
+        source={require('../assets/images/luz.jpg')}
         style={styles.backgroundImagem}
         resizeMode="cover"
       >
@@ -16,7 +16,7 @@ export default function Index() {
               <Text style={styles.buttonText}>Dicas</Text>
             </TouchableOpacity>
           </Link>
-          <Link asChild href="/products">
+          <Link asChild href="/vasos">
             <TouchableOpacity style={styles.button}>
               <Text style={styles.buttonText}>Vasos</Text>
             </TouchableOpacity>
